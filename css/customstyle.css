@@ -1,0 +1,37 @@
+div,html {
+    height: 100%;
+    background-color:black;
+}
+
+body {
+    height: 48.4%;
+}
+
+div.title {
+    height:auto;
+    font-size: normal;
+    color: gray;
+    text-align:start;
+}
+
+.button-viva,
+.button-twitter,
+.button-version,
+.button-info {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button-viva {
+    background: #eee126; /* this is a yellow */
+	color: black;
+}
+.button-twitter {
+    background: #00b7fffa; /* this is a maroon */
+}
+.button-version {
+    background: #32bd9f; /* this is a green */
+}
+.button-info {
+    background: #3f3f3f; /* this is a maroon */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Viva! VTuber 直播整合台</title>
+        <!--網頁LOGO-->
+        <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+        <!-- 自訂CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+        <script src="https://kit.fontawesome.com/afaf04ae63.js" crossorigin="anonymous"></script>
+        <!-- 自訂JS -->
+        <script src="js/info.js" ></script>
+    </head>
+    <body>
+        <div class="pure-g">
+            <div class="title pure-u-1-2" style="font: 1em consolas; line-height: 30px;">
+                此為Viva! VTuber 支援的四位VTuber（璐洛洛、蝦拉拉、優米、卡茲可可）的Twitch直播整合台，方便大家觀看直播。<br>
+            </div>
+            <div class="pure-u-1-2" style="height:auto; font-size: small; text-align: end;">
+                <button class="button-viva pure-button" onclick="window.open('https://vmxrassn.wixsite.com/viva-vtuber','_blank')">
+                    <i class="fas fa-globe-asia"> Viva! VTuber</i>
+                </button>   
+                <button class="button-twitter pure-button" onclick="window.open('https://twitter.com/vivavtuber','_blank')">
+                    <i class="fab fa-twitter"> Twitter</i>
+                </button>                 
+                <button class="button-version pure-button" onclick="about()">
+                    <i class="fas fa-info-circle"> 20191221</i>
+                </button>
+                <button class="button-info pure-button" onclick="window.open('https://github.com/minexo79/minexo79.github.io','_blank')">
+                    <i class="fab fa-github"> Github</i>
+                </button>
+            </div>
+            <div class="pure-u-1-2">
+                <!-- 璐洛洛 -->
+                <iframe src="https://player.twitch.tv/?channel=ruroroisme&enableExtensions=true&muted=false&player=popout&volume=0.5" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            </div>
+            <div class="pure-u-1-2">
+                <!-- 蝦拉拉 -->
+                <iframe src="https://player.twitch.tv/?channel=shalalashrimp&enableExtensions=true&muted=false&player=popout&volume=0.5" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            </div>
+            <div class="pure-u-1-2">
+                <!-- 優米 -->
+                <iframe src="https://player.twitch.tv/?channel=yuyumi_vt&enableExtensions=true&muted=false&player=popout&volume=0.5" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            </div>
+            <div class="pure-u-1-2">
+                <!-- 卡茲可可 -->
+                <iframe src="https://player.twitch.tv/?channel=katsu_coco&enableExtensions=true&muted=false&player=popout&volume=0.5" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
