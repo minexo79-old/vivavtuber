@@ -4,14 +4,27 @@ div,html {
 }
 
 body {
-    height: 48.4%;
+    height: 48.1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-div.title {
+.button-text {
     height:auto;
-    font-size: normal;
+    font-size: small;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hint {
+    height:auto;
+    font: 1em consolas;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
     color: gray;
-    text-align:start;
 }
 
 .button-viva,
