@@ -4,47 +4,74 @@ div,html {
 }
 
 body {
-    height: 48.1%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.button-text {
-    height:auto;
-    font-size: small;
-    margin-top: auto;
-    margin-bottom: auto;
+.box {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
 }
 
-.hint {
-    height:auto;
-    font: 1em consolas;
-    text-align:center;
-    margin-top: auto;
-    margin-bottom: auto;
-    color: gray;
+#btn-group {
+    position: fixed;
+    top: 50%;
+    right: -1px; 
 }
 
 .button-viva,
+.button-github,
 .button-twitter,
 .button-version,
-.button-info {
+.button-reload {
+    display: block;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 16px 0px 0px 16px;
+    transition-duration: 0.2s;
+}
+
+.button-viva:hover {
+    background-color: #eee126;
+    color: black;
+}
+.button-github:hover {
+    background-color: #3f3f3f;
     color: white;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-.button-viva {
-    background: #eee126; /* this is a yellow */
-	color: black;
+.button-twitter:hover {
+    background-color: #00b7fffa;
+    color: white;
 }
-.button-twitter {
-    background: #00b7fffa; /* this is a maroon */
+.button-version:hover {
+    background-color: #32bd9f;
+    color: white;
 }
-.button-version {
-    background: #32bd9f; /* this is a green */
+.button-reload {
+    background-color: rgb(255, 112, 112);
+    color: white;
 }
-.button-info {
-    background: #3f3f3f; /* this is a maroon */
+.button-reload:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        height: 50%;
+    }
+    .box {
+        width: 100%;  
+        height: 100%;
+    }
 }
